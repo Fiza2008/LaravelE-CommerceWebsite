@@ -65,62 +65,62 @@ This repository is a **custom improved version** of the open-source project by T
 
 ## 🛠 Installation & Setup
 
-BACKEND SETUP (Laravel)
+## BACKEND SETUP (Laravel)
 
-1️⃣ Clone the repository
+## 1️⃣ Clone the repository
 
-2️⃣ Install dependencies
+## 2️⃣ Install dependencies
 composer install
 
-3️⃣ Create environment file
+## 3️⃣ Create environment file
 cp .env.example .env
 
-4️⃣ Generate application key
+## 4️⃣ Generate application key
 php artisan key:generate
 
-5️⃣ Configure database
+## 5️⃣ Configure database
 Update .env with your MySQL credentials:
 DB_DATABASE=laravel_vue_ecommerce
 DB_USERNAME=root
 DB_PASSWORD=
 
-6️⃣ Run migrations & seeders
+## 6️⃣ Run migrations & seeders
 php artisan migrate --seed
 
-7️⃣ Start backend server
+## 7️⃣ Start backend server
 php artisan serve
 
-Backend runs at:
+## Backend runs at:
 http://localhost:8000
 
 
-FRONTEND SETUP (Vue.js)
+## FRONTEND SETUP (Vue.js)
 
-8️⃣ Go to frontend folder
+## 8️⃣ Go to frontend folder
 cd frontend
 
-9️⃣ Install dependencies
+## 9️⃣ Install dependencies
 npm install
 
-🔟 Start frontend dev server
+## 🔟 Start frontend dev server
 npm run dev
 
-Frontend runs at:
-👉 http://localhost:5173
+## Frontend runs at:
+http://localhost:5173
 
 
-🔑 Default Login Credentials (Seeded)
+## 🔑 Default Login Credentials (Seeded)
 
-🧑 User
+## 🧑 User
 email: user@example.com
 password: password
 
-👨‍💼 Admin
+## 👨‍💼 Admin
 email: admin@example.com
 password: password
 
 
-📁 Project Folder Structure
+## 📁 Project Folder Structure
 
 /backend
     /app
@@ -134,7 +134,7 @@ password: password
     /store
 
 
-🎯 Improvements I Made
+## 🎯 Improvements I Made
 -> Added better UI components
 -> Added form validations
 -> Added error handling
@@ -142,7 +142,7 @@ password: password
 -> Cleaned unused code
 -> Fixed minor bugs
 
-📝 License
+## 📝 License
 This project is open-source and distributed under the MIT License.
 
 
